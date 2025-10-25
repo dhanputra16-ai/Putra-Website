@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cerita Saya</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #B5FFFC, #FFDEE9);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      color: #333;
+    }
+
+    .story-card {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      max-width: 500px;
+      width: 90%;
+      padding: 30px;
+      text-align: center;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    h1 {
+      color: #4A00E0;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.7;
+      color: #555;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 25px;
+      background: linear-gradient(45deg, #8E2DE2, #4A00E0);
+      color: white;
+      padding: 12px 20px;
+      border-radius: 30px;
+      font-weight: bold;
+      font-size: 14px;
+      text-decoration: none;
+      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    a.button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="story-card">
+    <h1>Cerita Saya</h1>
+    <p>
+      Perkenalkan, nama saya <strong>Putra Andika</strong>, bisa dipanggil <strong>Putra</strong>.  
+      Saya berasal dari kelas <strong>XI.2</strong> dan saat ini berusia <strong>16 tahun</strong>.  
+      Saya tinggal di <strong>Jalan Karya Bersama, belakang UIR</strong>.  
+      Hobi saya adalah <strong>olahraga</strong> karena membuat saya merasa sehat, semangat, dan disiplin.  
+      Saya selalu berusaha menjadi pribadi yang lebih baik setiap harinya melalui hal-hal yang saya sukai.
+    </p>
+
+    <a href="index.html" class="button">🏠 Kembali ke Profil</a>
+  </div>
+
+</body>
+</html>
